@@ -1,11 +1,10 @@
-import { Welcome } from '../components/Welcome/Welcome';
-import { ColorSchemeToggle } from '../components/ColorSchemeToggle/ColorSchemeToggle';
+import { BaseLayout } from '../components/BaseLayout/BaseLayout';
+import { Houses } from '../components/Houses/Houses';
 
 export default function HomePage() {
   return (
-    <>
-      <Welcome />
-      <ColorSchemeToggle />
-    </>
+    <BaseLayout>
+      <Houses />
+    </BaseLayout>
   );
 }

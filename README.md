@@ -1,39 +1,37 @@
-# Mantine Next Template
+This is an assignment by Robin Piets.
 
-Get started with Mantine + Next with just a few button clicks.
-Click `Use this template` button at the header of repository or [follow this link](https://github.com/mantinedev/mantine-next-template/generate) and
-create new repository with `@mantine` packages. Note that you have to be logged in to GitHub to generate template.
+## Getting Started
 
-## Features
+Requirements:
 
-This template comes with several essential features:
+- Node.js > v14.18.1
 
-- Server side rendering setup for Mantine
-- Color scheme is stored in cookie to avoid color scheme mismatch after hydration
-- Storybook with color scheme toggle
-- Jest with react testing library
-- ESLint setup with [eslint-config-mantine](https://github.com/mantinedev/eslint-config-mantine)
+Install deps:
 
-## npm scripts
+```bash
+  yarn
+```
 
-### Build and dev scripts
+Run the development server:
 
-- `dev` – start dev server
-- `build` – bundle application for production
-- `export` – exports static website to `out` folder
-- `analyze` – analyzes application bundle with [@next/bundle-analyzer](https://www.npmjs.com/package/@next/bundle-analyzer)
+```bash
+yarn dev
+```
 
-### Testing scripts
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-- `typecheck` – checks TypeScript types
-- `lint` – runs ESLint
-- `prettier:check` – checks files with Prettier
-- `jest` – runs jest tests
-- `jest:watch` – starts jest watch
-- `test` – runs `jest`, `prettier:check`, `lint` and `typecheck` scripts
+## Tests
 
-### Other scripts
+Run the tests:
 
-- `storybook` – starts storybook dev server
-- `storybook:build` – build production storybook bundle to `storybook-static`
-- `prettier:write` – formats all files with Prettier
+```bash
+yarn test
+```
+
+The test files:
+
+- To be added
+
+## Learn More
+
+This is a [Next.js](https://nextjs.org/) project bootstrapped with Mantine's [`next-pages-template`](https://github.com/mantinedev/next-pages-template).
