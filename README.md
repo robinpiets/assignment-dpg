@@ -1,4 +1,5 @@
-This is an assignment by Robin Piets.
+# Assignment
+This is an assignment by Robin Piets. The goal is to use the Game of Thrones API (https://anapioficeandfire.com/) to navigate between the houses. The main page should have filters and the house detail page should list all the members of that given house.
 
 ## Getting Started
 
